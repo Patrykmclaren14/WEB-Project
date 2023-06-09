@@ -1,0 +1,548 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url('images/background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffbf69;
+  background-position: center;
+  width: 100%;
+  height: 30%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 25%; 
+  height: 100%;
+}
+
+.container-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-main {
+    width: 100%;
+    height: 90%;
+}
+
+.header-title {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    font-size: 0.5rem;
+    font-weight: 900;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 50%;
+    height: 100%;
+    font-size: 0.5rem;
+    font-weight: 900;
+}
+
+.main-popit {
+    display: flex;
+    align-items: end;
+    height: 50%;
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: white;
+}
+
+.main-description {
+    width: 50%;
+    height: 25%;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.main-button {
+    width: 100%;
+    height: 25%;
+}
+
+.button {
+    width: 25%;
+    height: 50%;
+    border: none;
+    background-color: #cbf3f0;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.main-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+}
+
+.text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 40%;
+    font-weight: 900;
+}
+
+.text-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    height: 60%;
+    font-size: 0.8rem;
+}
+
+.main-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 25%;
+    background-color: #cbf3f0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    font-weight: 900;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.box-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    gap: 10px;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+}
+
+.buy {
+    width: 50%;
+    height: 2vh;
+    font-size: 0.6rem;
+    font-weight: 700;
+    border: none;
+    background-color: #ffbf69;
+}
+
+.main-4 {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.area {
+    display: flex;
+    width: 25%;
+    background-image: url('images/bg-grid.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-title {
+    height: 30%;
+    display: flex;
+    align-items: end;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.left-description {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+.right {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-photo {
+    width: 170px;
+    height: 140px;
+}
+
+.main-5 {
+    width: 100%;
+    height: 5%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #c7c7c7;
+    font-size: 0.7rem;
+}
+
+.f-1 {
+    color: white;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 32%;
+    }
+    .header-title {
+        font-size: 0.5rem;
+    }
+    .header-info {
+        font-size: 0.5rem;
+    }
+    .main-popit {
+        font-size: 3.2rem;
+    }
+    .main-description {
+        font-size: 0.6rem;
+    }
+    .button {
+        width: 40%;
+    }
+    .text-1 {
+        font-size: 0.7rem;
+    }
+    .text-2 {
+        width: 30%;
+        font-size: 0.6rem;
+    }
+    .left-title {
+        height: 30%;
+        font-size: 0.6rem;
+    }
+    .left-description {
+        height: 50%;
+        width: 90%;
+        font-size: 0.6rem;
+    }
+    .area-photo {
+        width: 130px;
+        height: 110px;
+    }
+    .footer {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 32%;
+    }
+    .header-title {
+        font-size: 0.5rem;
+    }
+    .header-info {
+        font-size: 0.5rem;
+    }
+    .main-popit {
+        font-size: 2.5rem;
+    }
+    .main-description {
+        font-size: 0.7rem;
+    }
+    .button {
+        width: 40%;
+    }
+    .text-1 {
+        font-size: 0.7rem;
+    }
+    .text-2 {
+        width: 30%;
+        font-size: 0.6rem;
+    }
+    .title {
+        font-size: 0.8rem;
+    }
+    .box {
+        width: 25%;
+    }
+    .photo {
+        width: 60px;
+        height: 60px;
+    }
+    .photo-title {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .buy {
+        font-size: 0.5rem;
+    }
+    .area {
+        width: 35%;
+    }
+    .left-title {
+        font-size: 0.6rem;
+    }
+    .left-description {
+        width: 90%;
+        font-size: 0.6rem;
+    }
+    .area-photo {
+        width: 140px;
+        height: 120px;
+    }
+    .footer {
+        font-size: 0.5rem;
+        width: 35%
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 40%;
+    }
+    .header-title {
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    .header-info {
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    .main-popit {
+        font-size: 2rem;
+    }
+    .main-description {
+        font-size: 0.5rem;
+    }
+    .button {
+        width: 40%;
+    }
+    .text-1 {
+        font-size: 0.7rem;
+    }
+    .text-2 {
+        width: 30%;
+        font-size: 0.6rem;
+    }
+    .title {
+        font-size: 0.8rem;
+    }
+    .box {
+        width: 30%;
+    }
+    .photo {
+        width: 60px;
+        height: 60px;
+    }
+    .photo-title {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .buy {
+        font-size: 0.5rem;
+    }
+    .area {
+        width: 35%;
+    }
+    .left-title {
+        height: 20%;
+        font-size: 0.6rem;
+    }
+    .left-description {
+        height: 50%;
+        width: 80%;
+        font-size: 0.5rem;
+    }
+    .area-photo {
+        width: 110px;
+        height: 110px;
+    }
+    .footer {
+        font-size: 0.5rem;
+        width: 40%
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 80%;
+    }
+    .header-title {
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    .header-info {
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    .container-main {
+        width: 60%;
+    }
+    .main-popit {
+        font-size: 1.8rem;
+        height: 40%;
+    }
+    .main-description {
+        font-size: 0.6rem;
+        width: 100%;
+    }
+    .button {
+        width: 40%;
+    }
+    .text-1 {
+        height: 30%;
+        font-size: 0.7rem;
+    }
+    .text-2 {
+        width: 70%;
+        font-size: 0.6rem;
+    }
+    .title {
+        font-size: 0.8rem;
+    }
+    .box {
+        width: 60%;
+    }
+    .photo {
+        width: 60px;
+        height: 60px;
+    }
+    .photo-title {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .buy {
+        font-size: 0.5rem;
+    }
+    .area {
+        width: 70%;
+    }
+    .left-title {
+        font-size: 0.7rem;
+    }
+    .left-description {
+        width: 80%;
+        font-size: 0.6rem;
+    }
+    .area-photo {
+        width: 150px;
+        height: 130px;
+    }
+    .footer {
+        font-size: 0.5rem;
+        width: 80%
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 80%;
+    }
+    .header-title {
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    .header-info {
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    .container-main {
+        width: 60%;
+    }
+    .main-popit {
+        font-size: 1.8rem;
+        height: 40%;
+    }
+    .main-description {
+        font-size: 0.6rem;
+        width: 100%;
+    }
+    .button {
+        width: 40%;
+    }
+    .text-1 {
+        height: 30%;
+        font-size: 0.7rem;
+    }
+    .text-2 {
+        width: 70%;
+        font-size: 0.6rem;
+    }
+    .title {
+        font-size: 0.8rem;
+    }
+    .box {
+        width: 60%;
+    }
+    .photo {
+        width: 50px;
+        height: 50px;
+    }
+    .photo-title {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    .buy {
+        font-size: 0.5rem;
+    }
+    .area {
+        width: 80%;
+    }
+    .left-title {
+        font-size: 0.7rem;
+    }
+    .left-description {
+        width: 80%;
+        font-size: 0.6rem;
+    }
+    .area-photo {
+        width: 130px;
+        height: 110px;
+    }
+    .footer {
+        font-size: 0.5rem;
+        width: 100%
+    }
+}

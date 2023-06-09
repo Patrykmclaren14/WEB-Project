@@ -7,6 +7,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -56,6 +60,10 @@ body {
     height: 100%;
     font-size: 0.5rem;
     font-weight: 900;
+}
+
+.info {
+    color: black;
 }
 
 .main-popit {
@@ -227,7 +235,11 @@ body {
     font-size: 0.7rem;
 }
 
-.f-1 {
+.f {
+    color: #e5e5e5;
+}
+
+.f:nth-child(1) {
     color: white;
 }
 
